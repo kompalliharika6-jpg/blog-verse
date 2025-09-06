@@ -71,7 +71,7 @@ for(let key in person){
     console.log(`${key}: ${person[key]}`)
 }
 
-for(let i=5;i>=0;i++){
+for(let i=5;i>=0;i--){
     if(i==3){
         continue;
     }
